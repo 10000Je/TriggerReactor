@@ -1,0 +1,31 @@
+# args[num]의 List에 [ONLINEPLAYERS] , [OFFLINEPLAYERS] 사용 가능합니다.
+# 버킷에 직접 등록한 커맨드(플러그인) 의 경우, isTRGCmd: false 를 입력하세요.
+
+베드락:
+  isTRGCmd: true
+  aliases:
+  permission:
+  args[0]:
+    - '제거'
+
+청소:
+  isTRGCmd: true
+  aliases:
+    - 'cc'
+  permission: 'chatclear.admin'
+
+개인채팅청소:
+  isTRGCmd: true
+  aliases:
+  permission:
+
+금지템:
+  isTRGCmd: false
+  aliases:
+  permission:
+  args[0]:
+    - '우클릭'
+    - '조합'
+
+잠수:
+  isTRGCmd: false
